@@ -6,7 +6,11 @@ var app = function () {
   app.set('views', __dirname + '/views');
   app.engine('html', require('ejs').renderFile);
   app.get('/', function(req, res) {
+<<<<<<< HEAD
 	console.log('hello');
+=======
+	console.log(' index page');
+>>>>>>> fa90d6e6947a86c43fcfad6d03cb8420de7db4ff
     res.render('index.html');
   });
 
