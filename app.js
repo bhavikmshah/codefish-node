@@ -6,6 +6,7 @@ var app = function () {
   app.set('views', __dirname + '/views');
   app.engine('html', require('ejs').renderFile);
   app.get('/', function(req, res) {
+	console.log('hello');
     res.render('index.html');
   });
 
